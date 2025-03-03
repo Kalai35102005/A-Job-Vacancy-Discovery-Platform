@@ -1,0 +1,45 @@
+.con{
+    text-align: center;
+}
+.con1
+{
+    text-align: center;
+}
+.con37{
+    text-align: center;
+}
+.con3{
+    margin-right: 250px;
+}
+.con22{
+    margin-right: 100px;
+}
+.con48{
+    background-color:#20baca;
+    color: white;
+}
+.con8{
+    background-color: #20baca;
+    height: 470px;
+}
+.con5{
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 200px;
+    height:200px ;
+    justify-content: space-between;
+}
+input{
+    background-color: #e5e5e5;
+} 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  

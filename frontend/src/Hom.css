@@ -1,0 +1,97 @@
+.hom3{
+     background: url('C:\Users\22CS037\job\job\image.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+   width:340px;
+    height: 30px;
+    background-size: 100%;
+    padding: 20%;
+   
+}
+.hom2{
+    background-color:purple;
+    text-align: center;
+    color: white;
+}
+.hom4{
+    background-color: pink;
+    width: 123px;
+    text-align: center;
+    border-radius: 34px;
+    margin-left: 23px;
+}
+.hom5{
+    background-color: aqua;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+}
+.u{
+    display: flex;
+    background-color: aquamarine;
+    column-gap: 30px;
+    height: 23px;
+    border-radius: 10px;
+}
+.hom6{
+    background-color: antiquewhite;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+
+}
+.hom7{
+    background-color: burlywood;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}
+.hom9{
+    display: flex;
+    column-gap: 20px;
+}
+.hom9{
+    background: url('C:\Users\22CS037\job\job\immg.png');
+   
+  
+}
+.hom10{
+    color: red;
+    
+}
+.hom13{
+    background-color: bisque;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}
+.hom14{
+    background-color: coral;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}
+.hom15{
+    background-color: rgb(156, 156, 252);
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}
+.hom16{
+    background-color: rgb(221, 107, 107);
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}
+.hom17{
+    background-color: rosybrown;
+    border-radius: 34px;
+    text-align: center;
+    width: 123px;
+    color: white;
+}

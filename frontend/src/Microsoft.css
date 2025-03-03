@@ -1,0 +1,112 @@
+/* .mi{
+    text-align: center;
+    color: black;
+}
+.mi0{
+    text-align: center;
+ 
+    margin-left: 400px;
+    margin-right: 400px;
+    color: black;
+    height: 500px;
+    border-radius: 10px;
+}
+.mi9{
+     background-color: pink; 
+   
+}
+.micc{
+    background: linear-gradient(to right,rgb(175, 173, 171),rgb(243, 231, 231));
+
+  height: 690px;
+}
+.mic{
+    text-align: center;
+    color: black;
+} */
+.micc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('C:\Users\22CS037\job\job\imm.png') no-repeat center center/cover;
+    position: relative;
+  }
+  
+  /* Overlay for better readability */
+  .micc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .mic {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .mi0 {
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    width: 350px;
+  }
+  
+   .mi{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  } 
+  
+  .mi2 {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.85);
+    transition: 0.3s;
+  }
+  
+  .mi:focus, .mi2:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  
+  .mi9 {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #0078D4, #005A9E);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  .mi9:hover {
+    background: linear-gradient(135deg, #005A9E, #0078D4);
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+  }
+  

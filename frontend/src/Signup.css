@@ -1,0 +1,58 @@
+ /* .ap{
+ background:url('C:\Users\22CS037\job\job\imm.png'); 
+ 
+ height: 680px;
+
+}  */
+.logp{
+  text-align: center;
+}
+.loginform{
+  height: 400px;
+  background-color: hsl(208, 100%, 97%,0.4);
+   margin-left: 400px;
+  margin-right: 400px;
+  border-radius: 10px;
+  
+}
+.logh2{
+  text-align: center;
+  color: aliceblue;
+}
+ 
+  .ap::before{
+background: rgba(0,0,0,0.3);
+  }
+  
+.ap {
+  position: relative;
+  /* max-width: 800px;
+  margin: 40px auto; */
+  padding: 20px;
+  background: url('C:\Users\22CS037\job\job\imm.png') center/cover no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  height: 670px;
+  background-size: cover;
+}
+
+.ap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+ background-size: cover;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.ap * {
+  position: relative;
+  z-index: 2; 
+}
+
