@@ -1,36 +1,4 @@
 
-// import React from 'react'
-// import  "./Microsoft.css";
-// export default function Microsoft() {
-//   return (
-//     <div>
-//         <div className='micc'>
-//        <div className='mic'>
-//      <h2>Post a Job Vacancy for Microsoft</h2></div>
-//      <form className='mi0'>
-//         <center>
-//         <label className='mi'>Job Title:</label><br></br>
-       
-//          <input  className='mi2'type="text" name="title" required /><br></br>
-
-//         <label className='mi'>Job Description:</label><br></br>
-       
-//         <textarea className='mi2' name="description"  required/><br></br>
-       
-//         <label className='mi'>Location:</label><br></br>
-       
-//         <input className='mi2' type="text" name="location" required/><br></br>
-       
-//        <label className='mi'>Salary:</label><br></br>
-       
-//        <input className='mi2' type="text" name="salary" required/><br></br>
-        
-//         <button className='mi9' type="submit">Post Job</button>
-//         </center>      </form>
-//    </div> 
-//     </div>
-//   )
-// }
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Microsoft.css";
@@ -50,7 +18,7 @@ export default function Microsoft() {
     setError("");
     setSuccess("");
 
-    // Prepare the data as JSON
+  
     const dataToSend = { title, description, location, salary };
 
     try {
@@ -63,7 +31,7 @@ export default function Microsoft() {
       const data = await response.json();
       if (response.ok) {
         setSuccess("Job Vacancy posted successfully!");
-        // Delay navigation to allow user to see success message
+       
         setTimeout(() => {
           navigate("/jobdetails");
         }, 2000);
